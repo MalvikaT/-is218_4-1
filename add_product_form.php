@@ -1,7 +1,7 @@
 <?php
 require('database.php');
 $query = 'SELECT *
-          FROM categories
+          FROM guitar1_categories
           ORDER BY categoryID';
 $statement = $db->prepare($query);
 $statement->execute();
