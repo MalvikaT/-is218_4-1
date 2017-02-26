@@ -37,7 +37,7 @@ $statement->closeCursor();
 	    <td><form action="delete_category.php" method="post">
 	    
       <input type="hidden" name="category_id"
-	    	value="<?php echo $product['categoryID']; ?>">
+	    	value="<?php echo $category['categoryID']; ?>">
   	  <input type="submit" value="Delete">
     	</form></td>
       </tr>
