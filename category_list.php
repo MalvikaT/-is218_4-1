@@ -2,7 +2,7 @@
 require_once('database.php');
 
 // Get all categories
-$query = 'SELECT * FROM categories
+$query = 'SELECT * FROM guitar1_categories
                        ORDER BY categoryID';
 $statement = $db->prepare($query);
 $statement->execute();
